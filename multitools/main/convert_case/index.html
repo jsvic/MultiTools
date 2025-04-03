@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Case</title>
+    <link rel="stylesheet" href="../../style_geral.css">
+    <link rel="stylesheet" href="style_small.css">
+    <link rel="stylesheet" href="style_medium.css">
+</head>
+<body>
+    <div id="root">
+        <header>
+            <span id="name">
+                Nome do Site
+            </span>
+        </header>
+        <main>
+
+                <section>
+                    <div id="content">
+                        <div  id="sec_header">
+                            <h2>
+                                Convert Case
+                            </h2>
+                        </div>
+                        <div id="sec_body">
+                            <div id="row1_section">
+                                <div id="div_texarea">
+                                    <textarea id="inTexto" name="" id=""></textarea>
+                                    <div id="textInfor">
+                                        <p>Caracteres: <span id="outCarateres">0</span></p>
+                                        <p>Palavras: <span id="outPalavras">0</span></p>
+                                    </div>
+                                    <span id="mensegeCopy">Texto Copiado</span>
+                                </div>
+                            </div>
+
+                            <div id="row2_section">
+                                <div id="div_options">
+                                    <button id="btnOriginal" class="btnMain">
+                                        Original
+                                    </button>
+
+                                    <button id="btnLimpar" class="btnLimpar">
+                                        Limpar
+                                    </button>
+
+                                    <button id="btnCopiar" class="btnCopiar">
+                                        Copiar
+                                    </button>
+
+                                    <button id="btnMaiusculo" class="btnOption">
+                                        Maiusculo
+                                    </button>
+
+                                    <button id="btnMinusculo" class="btnOption">
+                                        Minusculo
+                                    </button>
+                                    
+                                    <button id="btnPrimeiraLetra" class="btnOption">
+                                        Primeira letra 
+                                    </button>
+
+                                    <button id="btnTitulo" class="btnOption">
+                                        Titulo
+                                    </button>
+
+                                    <button id="btnInvertido" class="btnOption">
+                                        Invertido
+                                    </button>
+
+                                    <button id="btnAlternado" class="btnOption">
+                                        Alternado
+                                    </button>
+
+                                    <button id="btnMorse" class="btnOption">
+                                        Codigo Morse
+                                    </button>
+                                    
+                                    <button id="btnBinario" class="btnOption">
+                                        Codigo Binario
+                                    </button>
+
+                                    <select id="slcConverter" class="slcOption">
+                                        <option value="">Converter</option>
+                                        <option value="morse">Converter: Morse</option>
+                                        <option value="binario">Converter: Binario</option>
+                                    </select>
+                                </div>
+                            </div>
+                    </section>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
