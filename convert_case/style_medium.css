@@ -1,0 +1,130 @@
+@media screen and (min-width: 450px) {
+    
+    body, #root {
+        overflow-x: hidden;
+        height: 100vh;
+    }
+
+    #root {
+        display: grid;
+        grid-template-rows: 5vh 95vh;
+    } 
+
+    /*Inicio da estilização do header*/
+
+    header {
+        display: flex;
+        align-items: center;
+        
+        padding: 1.2em 10em;
+
+        font-size: 1.5em;
+        color: white;
+        background-color: var(--color-main-header);
+        border-bottom: 2px solid black;
+        box-shadow: 1px 1px 1px black;
+    }
+
+    /*fim da estilização do header*/
+
+    /*Inicio da estilização do main*/
+    main {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        padding: 2em 1em;
+        padding-bottom: 0px;
+    }
+
+    #row1 {
+        display: grid;
+        grid-template-columns: .5fr 1fr .5fr;
+    }
+
+    #main_column1 {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    #main_column2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main_column3 {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+
+    #sec_header {
+        font-family: var(--font-title);
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size: 1.6em;
+        padding: .5em;
+        padding-bottom: 1.5em;
+    }
+
+    #div_texarea {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5em;
+    }
+
+    #inTexto {
+        width: 100%;
+        height: 130px;
+        padding: 1em .6em;
+    }
+
+    #textInfor {
+        display: flex;
+        gap: 7em;
+    }
+
+    #mensegeCopy {
+        visibility: hidden;
+        font-weight: bolder;
+        border-bottom: 4px solid var(--color-main-header);
+    }
+
+    #div_options {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: min-content;
+        row-gap: .7em;
+    }
+
+    #div_options .slcOption {
+        width: 150px;
+        height: 40px;
+        transition: .3s ease-in-out;
+        font-family: var(--font-main);
+        font-weight: 900;
+        outline: none;
+        background-color: var(--color-primary-buttonOption);
+        margin: 0em .75em;
+        padding: .5em .3em;
+        border-radius: 4px;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+
+    .slcOption option {
+        background-color: var(--color-segundary-buttonOption);
+        color: white;
+    }
+
+    #row2 {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    /*fim da estilização do main*/
+}

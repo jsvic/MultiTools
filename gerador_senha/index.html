@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="../../style_geral.css">
+    <link rel="stylesheet" href="style_small.css">
+    <link rel="stylesheet" href="style_medium.css">
+</head>
+<body>
+    <div id="root">
+        <header>
+            <span id="name">
+                <a href="../">MultiTools</a>
+            </span>
+        </header>
+        <main>
+            <section>
+                    <div id="content">
+                        <div  id="sec_header">
+                            <h2>
+                                Gerador de Senha
+                            </h2>
+                        </div>
+                        <div id="sec_body">
+                            <div id="row1_section">
+                                <div id="options_pass">
+
+                                    <div id="row1_options">
+                                        <div id="div_check">
+                                            <div class="check">
+                                                <input type="checkbox" name="ckMaiuculos" id="ckMaiuculos"> <label for="ckMaiuculos">Letras Maiusculas</label> 
+                                             </div>
+                                            <div class="check">
+                                                <input type="checkbox" name="ckNumeros" id="ckNumeros"> <label for="ckNumeros">Números</label> 
+                                            </div>
+                                            <div class="check">
+                                                <input type="checkbox" name="ckCaracteres" id="ckCaracteres">  <label for="ckCaracteres">Caracteres Especiais</label> 
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="row2_options">
+                                        <div id="div_caracteres">
+                                            <label for="">Quantidade de Caracteres</label>
+                                            <div id="div_range">
+                                                <input type="range" id="rnCaracteres" min="5" max="100" value="5">
+                                                <span id="num_range">5</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="row2_section">
+                                <div id="div_response">
+                                    <div id="btn_response">
+                                        <button type="button" id="btnGerar" class="btnMain">
+                                            GERAR
+                                        </button>
+                                        <button type="button" id="btnCopiar" class="btnCopiar">
+                                            COPIAR
+                                        </button>
+                                    </div>
+                                    <textarea  id="outResponse" > </textarea>
+
+                                    <span id="mensegeCopy">Texto Copiado</span>
+                                </div>
+                                </div>
+                            </div>
+                    
+                </div>
+
+            </section>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
