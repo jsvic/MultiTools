@@ -16,4 +16,4 @@ Se você deseja contribuir com melhorias para o projeto, siga as etapas abaixo:
   <li>Envie um pull request para que suas modificações sejam revisadas.</li>
 </ol>
 
-✨ Divirta-se explorando e personalizando o Filmometer! Se tiver alguma dúvida ou precisar de suporte, fique à vontade para entrar em contato. Aproveite! ✨
+✨ Divirta-se explorando e personalizando o MultiTools! Se tiver alguma dúvida ou precisar de suporte, fique à vontade para entrar em contato. Aproveite! ✨
