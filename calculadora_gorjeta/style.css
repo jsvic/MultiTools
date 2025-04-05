@@ -1,0 +1,186 @@
+@media screen and (min-width: 450px) {
+    
+    body, #root {
+        overflow-x: hidden;
+        height: 100vh;
+    }
+
+    #root {
+        display: grid;
+        grid-template-rows: 5vh 95vh;
+    } 
+
+    /*Inicio da estilização do header*/
+
+    header {
+        display: flex;
+        align-items: center;
+        
+        padding: 1.2em 10em;
+
+        font-size: 1.5em;
+        color: white;
+        background-color: var(--color-main-header);
+        border-bottom: 2px solid black;
+        box-shadow: 1px 1px 1px black;
+    }
+
+    /*fim da estilização do header*/
+
+    /*Inicio da estilização do main*/
+
+
+    #sec_header {
+        font-family: var(--font-title);
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size: 1.6em;
+        padding: .5em;
+        padding-bottom: 1.5em;
+    }
+
+    #row1_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    #div_total {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    #inValor {
+        width: 10em;
+        height: 2em;
+    }
+    
+    #div_porcentagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .8em;
+    }
+
+    #row2_options #div_caracteres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    #div_range {
+        display: grid;
+        grid-template-columns: 100% 30px;
+        align-items: center;
+    }
+
+    #rnGorjeta{  
+        -webkit-appearance: none;
+        border: none;
+        width: 300px;
+        height: 10px;
+        background  : linear-gradient(to right,  var(--color-segundary-range), var(--color-tertiary-range));
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.15);
+    }
+
+    #rnGorjeta::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border: none;
+        height: 19px;
+        width: 19px;
+        border-radius: 50%;
+        background: linear-gradient(120deg, var(--color-tertiary-range), var(--color-primary-range), var(--color-segundary-range));
+        
+    }
+
+    #rnGorjeta::-moz-range-thumb {  
+        border: none;
+        height: 19px;
+        width: 19px;
+        border-radius: 50%;
+        background: linear-gradient(120deg,   var(--color-tertiary-range), var(--color-primary-range), var(--color-segundary-range));
+    }
+    
+
+    #rnGorjeta::-ms-range-thumb {
+        border: none;
+        height: 19px;
+        width: 19px;
+        border-radius: 50%;
+        background: linear-gradient(120deg,   var(--color-tertiary-range), var(--color-primary-range), var(--color-segundary-range));
+    }
+    
+
+    #rnGorjeta:focus {
+        outline: none;
+    }
+
+
+    #rnGorjeta:hover {
+        filter: brightness(100%);
+    }
+
+    #num_range {
+        padding: 20px;
+    }
+
+    #row2_section #div_response {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    #btn_response {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    #outResponse {
+        width: 800px;
+        height: 100px;
+        padding: 5px;
+        text-align: center;
+
+        border: 2px solid black;
+        background-color: var(--color-primary-textarea);
+        font-size: 1.15em;
+
+        box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+    }
+
+    #mensegeCopy {
+        visibility: hidden;
+        font-weight: bolder;
+        border-bottom: 4px solid    var(--color-main-header);
+    }
+
+    #row2_section {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    #divOutValor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .outValor {
+        display: flex;
+        gap: 1.5em;
+    }
+    /*fim da estilização do main*/
+}
