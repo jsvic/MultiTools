@@ -1,8 +1,8 @@
-<b>Bem-vindo ao MultiTools 🔧</b> <br>
+<b>Bem-vindo ao MultiTools 🔧</b> <br> <br>
 Este projeto consiste em uma coleção de ferramentas simples e práticas para facilitar tarefas cotidianas no ambiente digital. O objetivo do projeto é oferecer soluções rápidas e acessíveis para pequenos problemas que surgem no dia a dia, ajudando usuários a realizar tarefas comuns de maneira eficiente e sem complicação. Essas ferramentas são voltadas para melhorar a produtividade e a segurança online.
 
 ## ℹ️ Sobre o Projeto
-O MultiTools é uma aplicação web que condensa diversas ferramentas simples. Foi desenvolvido com as seguintes tecnologias:
+O MultiTools é uma aplicação web que condensa diversas ferramentas simples. <br> <br>Foi desenvolvido com as seguintes tecnologias:
 <ul>
   <li>Linguagens: Javascript, HTML&CSS</li>
 </ul>
